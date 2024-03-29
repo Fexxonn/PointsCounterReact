@@ -1,0 +1,22 @@
+.containerCounter {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 5rem;
+  text-shadow: 1px 3px 5px grey;
+}
+
+.color-1 {
+  background: red;
+  box-shadow: 0 0 1pc 1pc red;
+}
+.color-2 {
+  background: blue;
+  box-shadow: 0 0 1pc 1pc blue;
+}
+.color-3 {
+  background: green;
+}

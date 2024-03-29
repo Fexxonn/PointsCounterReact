@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  max-width: 2560px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5pc;
+  background: grey;
+}
+.container-buttons {
+  display: flex;
+  gap: 2pc;
+  min-width: 200px;
+  position: relative;
+  top: 1.8pc;
+}
+.container-button-team {
+  display: flex;
+  flex-direction: column;
+  gap: 1pc;
+  position: relative;
+  top: -2pc;
+}
+@media all and (orientation: landscape) {
+  .App {
+    background: gray;
+    flex-direction:row;
+    gap: 3pc;
+  }
+  
+}
